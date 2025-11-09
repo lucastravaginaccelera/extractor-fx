@@ -1,0 +1,27 @@
+{
+  "name": "extractor-fx",
+  "version": "1.0.0",
+  "description": "API para extrair dados do calendário econômico",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["scraper", "forex", "calendario-economico"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "deepl-node": "^1.11.0"
+  }
+}
