@@ -18,7 +18,7 @@ const translator = new deepl.Translator(process.env.DEEPL_API_KEY || 'c34e60f9-4
 
 export async function buscarNoticiasFinancialJuice() {
   try {
-    const url = 'https://live.financialjuice.com/FJService.asmx/GetPreviousNews?info=%22EAAAAPlLgOfsXx5398GdgRXvxRS13GuQP31g4Ck5%2F2OtzbQ%2BOscVgrmlpICl603ky%2Bz5lQ59q6msT%2BfDtJM6Hd6eU9%2Fa%2B3ipyd%2FE1sZ2Gf8Cq5ZUeDc%2BAiLgN7f56X2aN4P737znaiosEacMqY8i8KjWTC2n0GZ6Qa%2F3%2ByaWmHdPCFwun5IVflGbmupkdMYt%2Fpq0vTNTpkJFmnWy5qwyzVtRurG4SgmHFdgxtqPYKJUC%2FLn9BbSqTEcMFYJgggAgZyIb3fbuDBeL3BMNOkyCNf2C4iOF%2Bh5mnbwxQYr9Gw%2F5vOP7%22&TimeOffset=-3&tabID=0&oldID=0&TickerID=0&FeedCompanyID=0&strSearch=%22%22&extraNID=0';
+    const url = 'https://live.financialjuice.com/FJService.asmx/GetPreviousNews?info=^%^22EAAAAFQKslEBW7LUqBODIs91OMhGbl2YI63toi4BiQxIB4BJEW^%^2FD^%^2FfLquDaLlleJOOjTV1RTBfdkwD8qEdEOkCO60mHljpsJl1ZbJgXFFvH^%^2BNOWABoiIhM22naFOPzhJsbWkmG^%^2Bj^%^2BWbBMZnaMaNP0mIzqPSO3lr4Cj9Uxld2kLmaIm5PM^%^2BxhIQ7IKNv1HOUcPG4nOrsfxpP8nTYZxTADM2DsWCWA^%^2F^%^2F4Dz2af7ZENYK1vZrNxvg32PtPW9SsNC^%^2BmQuFeM0bUOAmsAR4FkA1XDJFX7TFJ4iwuH^%^2FZ9CP1taN7VyZtS1^%^2FTiGlwaELJ2JjehR6Bkfs0XnhDzK1WBhwIGF^%^2Fndrbl4^%^3D^%^22^&TimeOffset=-3^&tabID=5^&oldID=9294085^&TickerID=0^&FeedCompanyID=0^&strSearch=^%^22^%^22^&extraNID=0^';
     
     console.log('🔍 Chamando API Financial Juice...');
     
